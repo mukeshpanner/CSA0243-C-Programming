@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+ int decimalno,octalno=0,i=1;
+ printf("enter the decimal number:");
+ scanf("%d",&decimalno);
+ while (decimalno !=0)
+ {
+  octalno += (decimalno%8)*i;
+  decimalno /= 8;
+  i *= 10;
+
+ }
+ printf("the octal no: %d",octalno);
+ return 0;
+}
