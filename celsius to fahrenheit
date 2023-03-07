@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main()
+{
+ int fah,cel;
+ printf("enter the celsius:");
+ scanf("%d",&cel);
+
+ fah =(( 9 * cel)/5)+32;
+
+
+ printf("the fahrenteit value is:%d",fah);
+ return 0;
+}
