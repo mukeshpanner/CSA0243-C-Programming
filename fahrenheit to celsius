@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main()
+{
+ int fah,cel,a;
+ printf("enter the fahenheit:");
+ scanf("%d",&fah);
+
+ a = fah - 32;
+ cel = (5 * a)/9;
+
+
+ printf("the celsius value is:%d",cel);
+ return 0;
+}
