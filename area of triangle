@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+ float  area,height,length;
+ printf("\nenter the height of triangle:");
+ scanf("%f",&height);
+ printf("enter the length of triangle:");
+ scanf("%f",&length);
+
+ area = (height*length)/2;
+
+ printf("area of triangle:%f",area);
+ return 0;
+}
