@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main()
+{
+ int a,b,c;
+ int *p1,*p2,*p3;
+ printf("enter the numner to find largest no:");
+ scanf("%d %d %d",&a,&b,&c);
+
+ p1 = &a;
+ p2 = &b;
+ p3 = &c;
+
+ if(*p1>=*p2)
+ {
+  if(*p1>=*p3)
+  printf("entered number A is greater:%d",*p1);
+  else
+  printf("entered number C is greater:%d",*p3);
+ }
+
+ else
+ {
+  if(*p2>=*p3)
+  printf("entered number B is  greater:%d",*p2);
+  else
+  printf("entered number C is greater:%d",*p3);
+ }
+ return 0;
+}
