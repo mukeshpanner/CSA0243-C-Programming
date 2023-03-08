@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+ int a,b,c;
+
+ printf("enter the numner to find largest no:");
+ scanf("%d %d %d",&a,&b,&c);
+
+
+
+ if(a>=b)
+ {
+  if(a>=c)
+  printf("entered number A is greater:%d",a);
+  else
+  printf("entered number C is greater:%d",c);
+ }
+
+ else
+ {
+  if(b>=c)
+  printf("entered number B is  greater:%d",b);
+  else
+  printf("entered number C is greater:%d",c);
+ }
+ return 0;
+}
